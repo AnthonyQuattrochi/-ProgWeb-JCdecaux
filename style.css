@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+/* Ordinateur */ 
+@media only screen and (min-width : 800px){
+    body {
+        margin: 0; 
+        padding: 0; 
+        background-color: #141617;
+    }
+    
+    /* START Navbar */ 
+    nav{
+        background-color: rgb(19, 19, 19);
+        width: auto;
+        font-family: 'Dongle', sans-serif; 
+    }
+    
+    nav > ul > li, nav > ul {
+        display: flex;
+    }
+    
+    nav > ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 5vw; 
+        margin-left: 3%; 
+    }
+    
+    nav > ul > li {
+        margin-left: 2%; 
+        text-align: center;
+        align-items: center;
+    }
+    
+    nav > ul > li > a {
+        text-decoration: none;
+        color: #e0963c;
+        font-weight: 600;
+        font-size: 2vw;
+    }
+    
+    nav > ul > li > a:hover {
+        border-bottom: 3px solid #e0963c;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px; 
+    }
+
+    ::-webkit-scrollbar-track {
+       box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #e0963c;
+    }
+    
+    /* END Navbar */ 
+    
+    /* START Block presentation project */ 
+    article {
+        padding-top: 5vw; 
+        height: 20vw; 
+        width: 80vw; 
+        margin: auto; 
+        display: flex; 
+    }
+    
+    article:last-child {
+        margin-bottom: 10%;
+    }
+    
+    .imgBike {
+        height: auto; 
+        width: 25vw; 
+        background-image: url('image/accueilVelo.jpg');
+        background-size: cover;
+        background-position: center;
+        box-shadow: 2px 6px 13px -3px #000000;
+    }
+    
+    section {
+        width: 100%; 
+        margin-left: 2%; 
+        box-shadow: 2px 6px 13px -3px #000000;
+        background-image: linear-gradient(to right top, #0a0b0b, #141617, #1b1e20, #23272a, #2d2f34);
+        overflow: auto;
+    }
+    
+    
+    h1, .banner > h1 {
+        color: #e0963c;
+        font-size: 4vw;
+        margin: unset;
+        padding-left: 2%; 
+        font-family: 'Dongle', sans-serif; 
+    }
+    
+    p {
+        font-family: 'Roboto', sans-serif; 
+        margin: unset; 
+        padding-left: 2%; 
+        font-size: 1.5vw;
+        color: rgb(172, 172, 172); 
+        text-align: justify;
+        width: 95%;
+    }
+    
+    #formSearch {
+        margin: 0 auto;
+        margin-top: 2%; 
+        width: 50vw; 
+    }
+    
+    #search {
+        border-color: #e0963c;
+        border-radius: 15px 15px;
+        height: 25px; 
+        background-color: #141617; 
+        color: #e0963c; 
+        width: 60%; 
+    }
+    
+    #button {
+        border-color: #e0963c;
+        border-radius: 15px 15px;
+        width: 30%;
+        height: 30px; 
+        color: #141617; 
+        background-color: #e0963c;
+    }
+    
+    strong {
+        color: #e0963c; 
+    }
+    
+    /* END Block presentation project */ 
+    
+    /* START second block */
+    #infos {
+        padding-bottom: 5vw; 
+    }
+    
+    #infos > section {
+        margin:0; 
+    }
+    
+    .banner {
+        background-color: #e0963c;
+        height: 10vw;
+        width: auto; 
+        margin:0;
+        display: grid;
+    }
+    
+    .banner > h1 {
+        color: #0a0b0b; 
+        text-align: center;
+        margin: auto; 
+    }
+    
+    #infos > section > p {
+        padding-top: 2%;
+    }
+    
+    /* END second block */
+
+    /* START footer */
+
+    footer {
+        background-color: rgb(10, 10, 10);
+        padding: 2%;
+    }
+
+    footer > i {
+        color: #0b0c0c; 
+        transition: 1s;
+        user-select: none;
+        cursor: default; 
+    }
+
+    footer > i:hover {
+        color: #e0963c; 
+        transition: 0s;
+        text-shadow: 0 0 120px #e0963c;
+    }
+    /* END footer */
+}
+
+/* Téléphone */ 
+@media all and (max-width : 801px) {
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+       
+    body {
+        margin: 0; 
+        padding: 0; 
+        background-color: #141617;
+    }
+    
+    /* START Navbar */ 
+    nav {
+        width: auto;
+        font-family: 'Dongle', sans-serif; 
+    }
+
+    nav > ul > li > a {
+        text-decoration: none;
+        color: #e0963c;
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    nav > ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: rgb(19, 19, 19);
+    }
+    
+    /* END Navbar */ 
+    
+    /* START Block presentation project */ 
+    article {
+        height: auto; 
+        width: 100%; 
+        margin: auto; 
+        display: flex; 
+        flex-direction: column;
+    }
+    
+    article:last-child {
+        margin-bottom: 10%;
+    }
+    
+    .imgBike {
+        height: auto; 
+        width: 25vw; 
+        background-image: url('image/accueilVelo.jpg');
+        background-size: cover;
+        background-position: center;
+        box-shadow: 2px 6px 13px -3px #000000;
+    }
+    
+    section {
+        width: 100%; 
+        margin-top: 7%; ;
+        box-shadow: 2px 6px 13px -3px #000000;
+        background-image: linear-gradient(to right top, #0a0b0b, #141617, #1b1e20, #23272a, #2d2f34);
+    }
+    
+    h1 {
+        color: #0a0b0b;
+        font-size: 8vw;
+        margin: unset;
+        padding-left: 2%; 
+        font-family: 'Dongle', sans-serif; 
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Roboto', sans-serif; 
+        margin: unset; 
+        padding: 2%; 
+        font-size: 4.5vw;
+        color: rgb(172, 172, 172); 
+        text-align: justify;
+        width: 95%;
+    }
+    
+    .formSearch {
+        margin: 0 auto;
+        width: 90%; 
+        margin-top: 2%; 
+    }
+    
+    #search {
+        border-color: #e0963c;
+        border-radius: 15px 15px;
+        height: 25px; 
+        background-color: #141617; 
+        color: #e0963c; 
+        width: 60%; 
+    }
+    
+    #button {
+        border-color: #e0963c;
+        border-radius: 15px 15px;
+        width: 30%;
+        height: 30px; 
+        color: #141617; 
+        background-color: #e0963c;
+    }
+    
+    strong {
+        color: #e0963c; 
+    }
+    
+    /* END Block presentation project */ 
+    
+    /* START second block */
+    #infos {
+        padding-top: 8%; 
+    }
+    
+    #infos > section {
+        margin:0; 
+    }
+    
+    .banner, .phoneBanner {
+        background-color: #e0963c;
+        height: 10vw;
+        width: auto; 
+        margin:0;
+        display: grid;
+    }
+    
+    #infos > section > p {
+        padding-top: 2%;
+    }
+    
+    /* END second block */
+
+    footer {
+        display: none;
+    }
+} 
+
+
+
+/** Search bar **/
+
+span {
+    color: red;
+    margin-left: 1%;
+}

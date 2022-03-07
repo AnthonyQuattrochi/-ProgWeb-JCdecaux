@@ -1,0 +1,48 @@
+
+h1 {
+    text-align: center;
+    color: #e0963c; 
+}
+
+#list p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: #e0963c solid 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(32, 30, 30, 0.548);
+    font-size: 1vw;
+}
+
+#list div {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.villeStation {
+    flex: 1 0 21%; /* explanation below */
+}
+
+#list a {
+    border-radius: 20px;
+    color: white; 
+    background-color: #e0963c;
+    padding: 1%; 
+    cursor: pointer;
+    font-family: 'Dongle', sans-serif; 
+    font-size: 2vw;
+    transition: 0.4s;
+}
+
+#list a:hover {
+    color: #e0963c; 
+    background-color: white;
+    transition: 0.4s;
+}
+
+
+@media all and (max-width : 801px) {
+} 
+
